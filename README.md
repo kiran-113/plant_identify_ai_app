@@ -20,19 +20,19 @@ This is a plant identifier app that uses Google's Gemini API to identify plants.
 2. Install the dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 3. Create a `.env.local` file in the root directory and add the following environment variables
 
 ```bash
-NEXT_PUBLIC_GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY=YOUR_GOOGLE_API_KEY
 ```
 
 4. Start the development server
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 ## Contributing
