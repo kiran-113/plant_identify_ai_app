@@ -1,14 +1,15 @@
-import Link from "next/link";
-import React from "react";
+import Link from "next/link";  
+import React from "react";  
 
-const Footer = () => {
-  return (
-    <footer className="mt-16 text-center text-white">
-      <p>
-        &copy; Plant Identifier. Made by {"NKV Harsha"}
-      </p>
-    </footer>
-  );
-};
+const Footer = () => {  
+  return (  
+    <footer className="mt-16 text-center text-white">  
+      <p>&copy; Free Plant Identifier.</p>  
+      <Link href="/donate" className="mt-4 inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 transition">  
+        Donate  
+      </Link>  
+    </footer>  
+  );  
+};  
 
 export default Footer;
